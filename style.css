@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {  
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color: #0ccac4;
+  background: linear-gradient(
+      to left,
+      rgb(178, 202, 0) 0%,
+      rgb(9, 210, 210) 100%
+    );
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.player-score,
+.computer-score {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.choice {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.choice:hover {
+  transform: scale(1.1);
+}
+
+.choice img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.result {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.restart-btn {
+  background-color: #fff;
+  color: #1c2237;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.restart-btn:hover {
+  background-color: #e0e0e0;
+}
+

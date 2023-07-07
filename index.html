@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock Paper Scissors Lizard Spock</h1>
+      <div class="scoreboard">
+        <div class="player-score">
+          <h2>You</h2>
+          <p id="player-score">0</p>
+        </div>
+        <div class="computer-score">
+          <h2>Computer</h2>
+          <p id="computer-score">0</p>
+        </div>
+      </div>
+        <div class="choices">
+            <div class="choice" data-choice="rock">
+              <img src="images/rock.svg" alt="Rock" />
+            </div>
+            <div class="choice" data-choice="paper">
+              <img src="images/paper.svg" alt="Paper" />
+            </div>
+            <div class="choice" data-choice="scissors">
+              <img src="images/scissors.svg" alt="Scissors" />
+            </div>
+            <div class="choice" data-choice="lizard">
+              <img src="images/lizard.svg" alt="Lizard" />
+            </div>
+            <div class="choice" data-choice="spock">
+              <img src="images/spock.svg" alt="Spock" />
+            </div>
+          </div>
+      <p class="result">Make your move!</p>
+      <button class="restart-btn">Restart Game</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
